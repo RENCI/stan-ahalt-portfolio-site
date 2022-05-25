@@ -1,5 +1,41 @@
 [
   {
+    "citation": "Fecho, K., Ahalt, S.C., Appold, S., Arunachalam, S., Pfaff, E., Stillwell, L., …Peden, D.B. (2022). Development and Application of an Open Tool for Sharing and Analyzing Integrated Clinical and Environmental Exposures Data: Asthma Use Case. JMIR Formative Research. doi: 10.2196/32357.",
+    "tags": ["peer-reviewed", "journal-article"]
+  },
+  {
+    "citation": "Robasky, K., Boyles, R., Bradford, K.C., Gold, M., Lenhardt, W.C., McKeen, S., Skipper, S., and Ahalt, S. (April 2020). How to launch transdisciplinary research communication. RTI Press, RB-0022-2004. Research Triangle Park, NC: RTI Press.  https://doi.org/10.3768/r tipress.2020.rb.0022.200. ",
+    "tags": ["bulletin", "technical-report"]
+  },
+  {
+    "citation": "Berente, N., Howison, J., King, J.L., Ahalt, S.C., and Winter, S., (2018). Organizing and the cyberinfrastructure workforce. Workshop report. NSF Cyberinfrastructure Workforce Workshop. ",
+    "tags": ["bulletin", "technical-report"]
+  },
+  {
+    "citation": "Idaszak, R., Ahalt, S.C., Bradford, K., Calloway, C., Castillo, C., Coposky, J., …Crabtree, J. (2017). xDCI - Accelerating data cyberinfrastructure and research for community science gateways. Gateways 2017.",
+    "tags": ["bulletin", "technical-report"]
+  },
+  {
+    "citation": "Timmes, F., Turk, M., Ahalt, S.C., Wang, S., Idaszak, R., Brower, R., Lenhardt, C., and Gustafson, K. (2016). Workshop Report. 2016 Software Infrastructure for Sustained Innovation (SI2) PI Workshop. ",
+    "tags": ["bulletin", "technical-report"]
+  },
+  {
+    "citation": "Timmes, F., Ahalt, S.C., Turk, M.,cl Idaszak, R., and Schildhauer, M. (2015). Workshop report. 2015 Software Infrastructure for Sustained Innovation (SI2) Principal Investigators Workshop. ",
+    "tags": ["bulletin", "technical-report"]
+  },
+  { 
+    "citation": "Evans, J.P., Wilhelmsen, K.C., Berg, J., Schmitt, C.P., Krishnamurthy, A., Fecho, K., and Ahalt, S.C. (February 2015). Clinical Genomics: How much data is enough? RENCI White Paper Series. ",
+    "tags": ["bulletin", "technical-report"]
+  },
+  { 
+    "citation": "Ahalt, S.C., Couch, A., Ibanez, L., and Idaszak, R. (2015). Workshop report. NSF Workshop on Supporting Scientific Discovery through Norms and Practices for Software and Data Citation and Attribution.",
+    "tags": ["bulletin", "technical-report"]
+  },
+  {
+    "citation": "Patterson, J.R., Thomas, S.R., Shaw. D., Hayes, J.A., Daley, C.R., Knight, S., Aikat, J., Mieczkowska, J.O., Ahalt, S.C., and Krishnamurthy, A.K. (2021). COVID-19 data utilization in North Carolina: A qualitative analysis. NC Policy Collaboratory.",
+    "tags": ["project-report"]
+  },
+  {
     "citation": "Carsey, T., Ahalt, S.C., Aikat, J., Bedard, D., Burchinal, M., Christian, T., …Crabtree, J. (2016). VISR: The virtual institute for social research, by Philip C. Bantin. In Building Trustworthy Digital Repositories: Theory and Implementation. Lanham, MD: Rowman & Littlefield.",
     "tags": ["chapter"]
   },
