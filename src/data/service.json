@@ -11,6 +11,8 @@
         ],
         "service": {
             "boards": [
+                "Board Member, National Courts and Sciences Institute, 2022-present",
+                "Editorial Board Member, Electronics, 2020-present",
                 "DesignSafe Advisory Board, 2018-present",
                 "Editorial Board Member, Scientific Data, 2016-present",
                 "Board Member, CyVerse Advisory Board, 2016-present",
@@ -22,8 +24,11 @@
             ],
             "committees": {
                 "current": [
+                    "Member of the 2020 IEEE International Conference on Bioinformatics and Biomedicine (IEEE BIBM 2020) Program Committee, 2020-present",
+                    "Member of the Foundations of Data Science (FODS) Conference Program Committee, 2020-present",
+                    "Member of the NIH Workshop on Cloud-Based Platforms Interoperability Organizing Committee, 2019-present",
                     "Member of the NCATS Data Translator, Publications Committee, 2018-present",
-                    "Member of the SC17 State of the Practice, Technical Program Committee, 2016-2017",
+                    "Member of the Data Science Leadership Summit Program Committee, 2018",
                     "Member of the Keohane Distinguished Visiting Professorship Nomination Committee, 2016-present",
                     "Member of the Technology Transfer Operations Committee, CURF, Clemson University, 2015-present",
                     "Member of the Microsoft Technical Computing Executive Advisory Committee, 2009-present.",
@@ -31,6 +36,7 @@
                     "Member of the Council on Competitiveness High Performance Computing Advisory Committee, 2004-present"
                 ],
                 "past": [
+                    "Member of the SC17 State of the Practice, Technical Program Committee, 2016-2017",
                     "Member of the Program Committee, RAMMMNets 2016: Workshop on Real-time Analytics in Multi-latency, Multi-party, Metro-scale Networks, Italy, 2016",
                     "MCNC CEO/President Search Committee, MCNC, 2014",
                     "Member of the Review Committee for Provost James Davis, UCLA, 2014",
@@ -61,6 +67,8 @@
                 ]
             },
             "chairing": [
+                "Co-Chair, NIH Search Workshop, 2021-present",
+                "Co-Chair, NIH Community and Governance Working Group, NIH Workshop on Cloud-Based Platforms Interoperability, 2020-present",
                 "Chair, Sheps Director Search, UNC-CH, 2016",
                 "Chair, Clemson University Research Foundation Strategic Planning Committee, 2015 – present",
                 "Chair, Big Data Science Conference, Stanford U, Palo Alto, CA, May 2014",
@@ -87,6 +95,7 @@
             ],
             "government": {
                 "state": [
+                    "Advisory Board, STEM Academy of NC, 2021-present",
                     "National Advisory Board, Bryson Center for Judicial Science Education, 2018-Present",
                     "External Advisory Board, Bioinformatics Research Center, NCSU, 2018-2021",
                     "Chair, Broadband Tiger-Team, Governor-elect Strickland Transition Team",
@@ -95,6 +104,9 @@
                     "Appointed by Congressman Z. Space Chair, Appalachian Broadband Task Force, 2008"
                 ],
                 "nation": [
+                    "NIH Jumpstarting Clinical Data Access to COVID-19 Research Workshop, Organizing Committee Member, July 2020",
+                    "Department of Energy’s program in Advanced Scientific Computing Research (ASCR), Reviewer, June 2020",
+                    "U.S. DHHS, NIH, and CDC Small Business Innovation Research (SBIR) Program, Reviewer, February 2020",
                     "National Institute of Health, Review Panel, October 2014",
                     "National Science Foundation, Review Panel, September 2014",
                     "National Institute of Health, Review Panel, July 2014",
@@ -146,13 +158,20 @@
                     "Resource Committee"
                 ],
                 "universityWide": [
-                    "Member of the Data Science @ Carolina Research Subcommittee, UNC-CH, 2019-present",
-                    "Member of the Packard Fellowship for Science and Engineering, Internal Review Committee, March 2019",
-                    "Member, Data Science Proposal Planning Group, UNC-CH, 2018-present",
-                    "Member, Dean Search Committee, Eshelman School of Pharmacy, UNC-CH, 2017-present",
-                    "Member, Campaign Faculty Ambassador Program, UNC-CH, 2017-present",
-                    "Lead, Carolina Services/Research Administration Planning Team, UNC-CH, 2017-present",
-                    "Member, Data Science Initiative, UNC-CH, 2016-present",
+                    "Member, Faculty Research Committee, UNC-CH, 2016-2025",
+                    "Member, Data Science Working Group, UNC, appointed by the Provost, 2020-2022",
+                    "Member of the Commerce with Confidence Advisory Panel, UNC-CH, August 2020-present",
+                    "Member, Packard Fellowship for Science and Engineering, Internal Review Committee, March 2020",
+                    "Member, Data Science @ Carolina Research Subcommittee, UNC-CH, September-November 2019",
+                    "Member, Packard Fellowship for Science and Engineering, Internal Review Committee, March 2019",
+                    "Member, Data Science Initiative Working Group, UNC-CH, appointed by the Provost, 2018-2019",
+                    "Member, Data Science Proposal Planning Group, UNC-CH, 2018-2019",
+                    "Member, Dean Search Committee, Eshelman School of Pharmacy, UNC-CH, 2017-2018",
+                    "Member, Campaign Faculty Ambassador Program, UNC-CH, 2017-2018",
+                    "Lead, Carolina Services/Research Administration Planning Team, UNC-CH, 2017-2018",
+                    "Member, Data Analytics Advisory Group 1, UNC-CH, appointed by the Provost, 2017-2018",
+                    "Member, Data Science Initiative Working Group, UNC-CH, 2017-2018",
+                    "Co-Chair, Data Science Initiative Committee, UNC-CH, 2016-2017",                    
                     "Member, Christopher Kielt’s 360 Review Committee, 2017 ",
                     "Member, Faculty Committee on Research, UNC-CH, 2016-2022",
                     "Chair, Search Committee for Sheps Center Director, UNC-CH, 2016 ",
