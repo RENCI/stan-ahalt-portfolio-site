@@ -9,7 +9,7 @@ module.exports = {
       { text: 'Biography', path: '/biography' },
       { text: 'Offices & Service', path: '/service' },
       { text: 'Publications', path: '/publications' },
-      { text: 'Presentations', path: '/presentations' },
+      { text: 'Meetings & Presentations', path: '/presentations' },
       { text: 'Honors & Awards', path: '/honors' },
     ]
   },
