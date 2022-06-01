@@ -8,7 +8,7 @@ const PresentationsView = () => {
 
     return (
         <div>
-            <Title>Presentations</Title>
+            <Title>Meetings & Presentations</Title>
             <List>
                 { presentations.map(({ citation }) => <ListItem>{ citation }</ListItem>) }
             </List>

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "stan-ahalt-portfolio-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Dr. Stan Ahalt is the Director of the Renaissance Computing Institute (RENCI) at UNC-Chapel Hill. As Director, he leads a team of research scientists, software and network engineers, data science specialists, and visualization experts who work closely with faculty research teams at UNC, Duke, and NC State as well as with partners across the country.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "RENCI Media <rencimedia@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.24.3",
