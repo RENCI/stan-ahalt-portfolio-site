@@ -5,8 +5,8 @@
   "version": "0.1.0",
   "author": "RENCI Media <rencimedia@gmail.com>",
   "dependencies": {
-    "babel-plugin-styled-components": "^2.0.7",
-    "gatsby": "^4.15.2",
+    "babel-plugin-styled-components": "^1.13.1",
+    "gatsby": "^4.0.0",
     "gatsby-background-image": "^1.6.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-layout": "^3.15.0",
@@ -22,10 +22,10 @@
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "prop-types": "^15.7.2",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^4.0.0"
   },
   "devDependencies": {
     "prettier": "^2.6.2"
