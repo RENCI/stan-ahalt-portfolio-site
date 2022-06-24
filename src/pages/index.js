@@ -1,23 +1,25 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
-import Img from "gatsby-image"
 import { Columns, Column } from '../components/Columns'
 import { EmailLink, PhoneLink } from '../components/Links'
 import { IconWrapper, EmailIcon, PhoneIcon } from '../components/Icons'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const ProfileImage = styled(Img)`
-    border-radius: 1rem;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
-    z-index: 0;
-    transition: max-width 250ms;
-    max-width: 90%;
-    @media (min-width: 600px) {
-        max-width: 60%;
-    }
-`
+const ProfileImage = {
+    borderRadius: "1rem",
+    margin: "0 auto",
+    marginBottom: "2rem",
+    filter: "drop-shadow(0 0 3px rgba(0, 0, 0, 0.2))",
+    zIndex: "0",
+    transition: "max-width 250ms",
+    maxWidth: "60%",
+    // @media (min-width: 600px) {
+    //     maxWidth: "60%"
+    // }
+
+}
+
 
 const ContactBlock = styled.div`
     display: flex;
@@ -35,18 +37,19 @@ const ContactBlock = styled.div`
         flex: 1;
         display: flex;
         flex-direction: column;
-        marginLeft: '1rem',
+        margin-left: '1rem',
     }
 `
 
 const IndexView = props => {
+    const image = getImage(props.data.imageSharp)
     return (
         <article>
-            <ProfileImage
-                fluid={ props.data.imageSharp.childImageSharp.fluid }
+            <GatsbyImage
+                image={ image }
                 alt="Stan Ahalt sitting at his desk in his office in front of large windows"
+                style={ProfileImage}
             />
-
             <Columns width="80%" center break={ 480 }>
                 <Column center as={ ContactBlock }>
                     <IconWrapper pad="0.5rem">
@@ -85,31 +88,17 @@ const IndexView = props => {
             </Columns>
 
         </article>
-    )
+    );
 }
 
 export default IndexView
 
-export const imageQuery = graphql`
-    query {
-        imageSharp: file(relativePath: {eq: "stan.jpg"}) {
-            id
-            childImageSharp {
-                fluid(maxWidth: 900) {
-                    base64
-                    tracedSVG
-                    aspectRatio
-                    src
-                    srcSet
-                    srcWebp
-                    srcSetWebp
-                    sizes
-                    originalImg
-                    originalName
-                    presentationWidth
-                    presentationHeight
-                }
-            }
-        }
+export const imageQuery = graphql`{
+  imageSharp: file(relativePath: {eq: "stan.jpg"}) {
+    id
+    childImageSharp {
+      gatsbyImageData(width: 900, placeholder: BLURRED, layout: CONSTRAINED)
     }
+  }
+}
 `
