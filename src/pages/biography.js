@@ -3,19 +3,23 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { Title } from '../components/Typography'
 import { List, ListItem } from '../components/List'
-import BackgroundImage from 'gatsby-background-image'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const BioImage = styled.picture`
-    width: 200px;
-    height: 200px;
-    min-width: 200px;
-    min-height: 200px;
-    border-radius: 50%;
-    margin: 1rem auto;
-    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
-    shapeOutside: circle();
-    display: block;
-    transition: min-width 250ms, min-height 250ms;
+const BioImage = {
+    width: '200px',
+    height: '200px',
+    minWidth: '250px',
+    minHeight: '250px',
+    borderRadius: '50%',
+    filter: 'drop-shadow(0 0 3px rgba(0, 0, 0, 0.2))',
+    shapeOutside: 'circle()',
+    display: 'block',
+    transition: 'min-width 250ms, min-height 250ms',
+    float: 'right',
+    margin: '0 0 1rem 1rem',
+}
+
+styled.picture`
     @media (min-width: 480px) {
         float: right;
         margin: 0 0 1rem 1rem;
@@ -26,11 +30,19 @@ const BioImage = styled.picture`
     }
 `
 
-const ContactView = props => (
+const ContactView = props => {
+    const image = getImage(props.data.imageSharp)
+
+    return (
     <article>
         <section>
             <Title>Biography</Title>
-            <BioImage as={ BackgroundImage } fluid={ props.data.imageSharp.childImageSharp.fluid } />
+            <GatsbyImage
+                image={ image }
+                alt="Stan Ahalt sitting at his desk in his office in front of large windows"
+                style={BioImage}
+            />
+
             <p>
                 Dr. Stan Ahalt is the Director of the <a href="https://renci.org" target="_blank" rel="noopener noreferrer">Renaissance Computing Institute</a> (RENCI) at UNC-Chapel Hill. As director, he leads a team of research scientists, software and network engineers, data science specialists, and visualization experts who work closely with faculty research teams at UNC, Duke, and NC State as well as with partners across the country. RENCI’s role is to provide enabling cyberinfrastructure to these research collaborations, which entails working on the challenges of data management, sharing, integration, and security.
             </p>
@@ -80,29 +92,15 @@ const ContactView = props => (
         </section>
     </article>
 )
-
+}
 export default ContactView
 
-export const imageQuery = graphql`
-    query {
-        imageSharp: file(relativePath: {eq: "stan-close.jpg"}) {
-            id
-            childImageSharp {
-                fluid(maxWidth: 900) {
-                    base64
-                    tracedSVG
-                    aspectRatio
-                    src
-                    srcSet
-                    srcWebp
-                    srcSetWebp
-                    sizes
-                    originalImg
-                    originalName
-                    presentationWidth
-                    presentationHeight
-                }
-            }
-        }
+export const imageQuery = graphql`{
+  imageSharp: file(relativePath: {eq: "stan-close.jpg"}) {
+    id
+    childImageSharp {
+      gatsbyImageData(width: 900, placeholder: BLURRED, layout: CONSTRAINED)
     }
+  }
+}
 `
